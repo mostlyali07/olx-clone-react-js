@@ -87,21 +87,46 @@ export default function () {
         </div>
         <div className="row">
           <div className="col-md-1">
-            <div class="eae6bd0b">
-              <a href="/" class="fb1b3abd">
+            <div className="main_logo">
+              <a href="/" className="fb1b3abd">
                 <svg
-                  height="20"
+                  height="35"
                   viewBox="0 0 36.289 20.768"
                   alt="Olx logo"
-                  class="_063feb70"
+                  className="_063feb70"
                 >
                   <path d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z"></path>
                 </svg>
               </a>
             </div>
           </div>
-          <div className="col-md-2"></div>
-          <div className="col-md-7"></div>
+          <div className="col-md-2">
+            <div class="input-group mb-3 cities">
+              <label class="input-group-text" for="inputGroupSelect01">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Pakistan</option>
+                <option value="1">Karachi</option>
+                <option value="2">Hyderabad</option>
+                <option value="3">Islamabad</option>
+              </select>
+            </div>
+          </div>
+          <div className="col-md-7">
+            <div class="input-group mb-3 search">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <span class="input-group-text" id="basic-addon1">
+                @
+              </span>
+            </div>
+          </div>
           <div className="col-md-2"></div>
         </div>
       </div>

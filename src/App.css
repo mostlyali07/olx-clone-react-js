@@ -1,5 +1,6 @@
 .main{
   background-color: #f7f8f8;
+  padding-top: 10px;
 }
 .F_logo{
   fill: #3a77ff;
@@ -10,4 +11,24 @@
 }
 .properties{
   margin-right: 20px;
+}
+.main_logo{
+  margin: 15px 40px ;
+}
+.cities{
+  margin: 15px 16px;
+}
+.search{
+  margin: 15px 16px;
+}
+.input-group-text {
+  background-color: #fff;
+  border: 1px solid #012f34;
+  border-radius: 0.25rem;
+}
+.form-select {
+  border: 1px;
+  border-left: 0px;
+  border-color:#012f34;
+  border-style: solid;
 }

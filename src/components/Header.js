@@ -101,11 +101,11 @@ export default function () {
             </div>
           </div>
           <div className="col-md-2">
-            <div class="input-group mb-3 cities">
-              <label class="input-group-text" for="inputGroupSelect01">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <div className="input-group mb-3 cities">
+              <label className="input-group-text" for="inputGroupSelect01">
+                <i className="fa-solid fa-magnifying-glass"></i>
               </label>
-              <select class="form-select" id="inputGroupSelect01">
+              <select className="form-select" id="inputGroupSelect01">
                 <option selected>Pakistan</option>
                 <option value="1">Karachi</option>
                 <option value="2">Hyderabad</option>
@@ -114,20 +114,29 @@ export default function () {
             </div>
           </div>
           <div className="col-md-7">
-            <div class="input-group mb-3 search">
+            <div className="input-group mb-3 search">
               <input
                 type="text"
-                class="form-control"
-                placeholder="Username"
-                aria-label="Username"
-                aria-describedby="basic-addon1"
+                className="form-control search_form"
+                placeholder="Find Cars, Mobile Phones and more..."
+                aria-label="Find Cars, Mobile Phones and more..."
+                aria-describedby="button-addon2"
               />
-              <span class="input-group-text" id="basic-addon1">
-                @
-              </span>
+              <button
+                className="btn btn-outline-dark"
+                type="button"
+                id="button-addon2"
+              >
+                <i className="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
           </div>
-          <div className="col-md-2"></div>
+          <div className="col-md-2 text-center">
+            <a href="/" className="loGin">Login</a>
+            <button className="sell">
+              <i class="fa-solid fa-plus"></i> Sell
+            </button>
+          </div>
         </div>
       </div>
     </>

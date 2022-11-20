@@ -1,34 +1,83 @@
-.main{
+.main {
   background-color: #f7f8f8;
   padding-top: 10px;
 }
-.F_logo{
+.F_logo {
   fill: #3a77ff;
   margin: 40px;
 }
-.motors{
+.motors {
   margin-right: 20px;
 }
-.properties{
+.properties {
   margin-right: 20px;
 }
-.main_logo{
-  margin: 15px 40px ;
+.main_logo {
+  margin: 15px 40px;
 }
-.cities{
+.cities {
   margin: 15px 16px;
 }
-.search{
+.search {
   margin: 15px 16px;
 }
 .input-group-text {
   background-color: #fff;
   border: 1px solid #012f34;
   border-radius: 0.25rem;
+  padding: 12px;
 }
 .form-select {
   border: 1px;
   border-left: 0px;
-  border-color:#012f34;
+  border-color: #012f34;
   border-style: solid;
+}
+.search_form {
+  border: 1px solid #012f34;
+  padding: 8px;
+}
+.btn-outline-dark {
+  background-color: #012f34;
+  color: #fff;
+}
+.sell {
+  background-image: url(/src/btn-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 14px;
+  border: 0px;
+  padding: 10px 22px;
+  background-color: #0000;
+  color: #012f34;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.loGin{
+  color: #012f34;
+  font-size: 15px;
+  font-weight: 700;
+}
+.BreadCrumb{
+  padding: 12px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+.all{
+  font-size: 16px !important;
+  color: #012f34;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.BreadCrumb span{
+  margin-left: 10px;
+  font-size: 14px;
+}
+.Banner{
+  margin: 10px;
+  background-image: url(./main-banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
 }

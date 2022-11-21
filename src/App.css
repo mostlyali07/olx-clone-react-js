@@ -83,14 +83,33 @@
 }
 .Pro_one{
   border: 1px solid #ccd5d6;
-  padding: 0px;
+  margin-top: 20px;
 }
 .Pro_one img{
-  width: 283px;
+  width: 259px;
   height: 150px;
 }
 .Ah4{
   color: #012f34;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 10px;
+}
+.text h5{
+  font-weight: 700;
+  margin-left: 10px;
+  color: #012f34;
+  margin-bottom: 26px;  
+  margin-top: 10px;
+}
+.btm{
+  margin-left: 10px;
+  color: #012f34;
+  font-size: 12px;
+}
+.fa-heart{
+  margin-left: 20px;
+  font-size: 20px;
+}
+.text{
+  padding: 6px;
 }

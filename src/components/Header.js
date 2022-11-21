@@ -86,7 +86,7 @@ export default function () {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-1">
+          <div className="col-md-1 text-center">
             <div className="main_logo">
               <a href="/" className="fb1b3abd">
                 <svg

@@ -83,4 +83,14 @@
 }
 .Pro_one{
   border: 1px solid #ccd5d6;
+  padding: 0px;
+}
+.Pro_one img{
+  width: 283px;
+  height: 150px;
+}
+.Ah4{
+  color: #012f34;
+  font-size: 18px;
+  margin-left: 10px;
 }

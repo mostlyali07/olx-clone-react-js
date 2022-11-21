@@ -4,8 +4,8 @@ export default function (props) {
   return (
     <>
       <div className="text">
-        <span>{props.title}</span><i class="fa-regular fa-heart"></i>
-        <h5>{props.price}</h5>
+        <span className="Ah4">{props.title}</span><i class="fa-regular fa-heart"></i>
+        <h5>Rs {props.price}</h5>
         <span>{props.address}</span>•<span>{props.time}</span>
       </div>
     </>

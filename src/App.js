@@ -18,7 +18,7 @@ function App() {
             <img src={img} />
             <Card_One
               title="oppo f19 lush condiction"
-              price="RS 39,500"
+              price="39,500"
               address="DHA Phase 3, Lahore"
               time="2 hours"
             />

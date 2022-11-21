@@ -4,7 +4,7 @@ import BreadCrumb from "./components/breadCrumb";
 import Banner from "./components/Banner";
 import Card_One from "./components/Card_One";
 import img from "../src/img_2.jpeg";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
